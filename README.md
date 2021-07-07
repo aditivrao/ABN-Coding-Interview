@@ -1,4 +1,4 @@
-# ABN-Coding-Interview
+# Coding-Interview
 
 The coding challenge was done in Python 3.7 using the Spyder user interface. The Code follows the order of the questions/ instructions in the exercise.md file as sent over by ABN. 
 
