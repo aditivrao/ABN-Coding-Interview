@@ -24,6 +24,9 @@ total = pd.merge(df_uk_nl, df_no_ccn, on='id', how="inner")
 # Renaming the columns for better readability
 total.columns=['Client_Identifier','First_Name', 'Last_Name', 'Email', 'Country', 'Bitcoin_address', 'Credit_Card_Type']
 
+# Writing to CSV file so as to upload on GitHub
+total.to_csv(r'C:\Users\aditi\OneDrive\Desktop\Career\Mploy\ABN Amro\codc-interviews\client_data.csv')
+
 #################################################################################################################
 #################### Now creating a user defined function that perfoms the above automatically ###################
 ##################################################################################################################
